@@ -1,0 +1,8 @@
+<div *ngFor="let comment of commentArray" style="width: 500px; margin: auto">
+  <p style="text-align: center">
+    <b>Comment for Post Number:</b> {{ comment.postId }}
+  </p>
+  <p style="text-align: center"><b>Email:</b> {{ comment.email }}</p>
+  <p style="text-align: center"><b>Body:</b> {{ comment.body }}</p>
+  <hr />
+</div>
